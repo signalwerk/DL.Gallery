@@ -87,7 +87,7 @@ $clickSize: 3rem;
         margin-right: $gap;
         margin-bottom: 0.5rem;
 
-        &:nth-child(4n + 4) {
+        &:nth-child(#{$imgCount}n + #{$imgCount}) {
           margin-right: 0;
         }
 
